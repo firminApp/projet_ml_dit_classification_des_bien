@@ -1,0 +1,20 @@
+{
+  "model": "LogisticRegression",
+  "n_classes": 56,
+  "n_samples": 424,
+  "test_accuracy": 0.9058823529411765,
+  "test_f1_macro": 0.9077545642763032,
+  "val_accuracy": 0.8470588235294118,
+  "val_f1_macro": 0.8795155199410516,
+  "features": {
+    "text": 6436,
+    "numeric": 3,
+    "total": 6439
+  },
+  "improvements": [
+    "Filtered classes with <3 samples",
+    "class_weight=balanced",
+    "TF-IDF 10k features + trigrams",
+    "Added price, discount, brand features"
+  ]
+}

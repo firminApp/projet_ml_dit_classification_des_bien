@@ -35,24 +35,17 @@ venv.bak/
 */.ipynb_checkpoints/*
 
 # Machine Learning
-*.pkl
 *.h5
 *.hdf5
 *.joblib
-*.model
 *.weights
-models/*.pkl
-models/*.h5
-models/*.json
 !models/.gitkeep
 
 # Data files
-*.csv
 *.tsv
 *.dat
 *.log
 data/Images/
-data/*.csv
 !data/.gitkeep
 
 # IDEs
