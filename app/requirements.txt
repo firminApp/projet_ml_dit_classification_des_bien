@@ -1,0 +1,16 @@
+# Application Streamlit - Classification de Biens
+# Version simplifiée (texte uniquement)
+
+# Interface web
+streamlit>=1.28.0
+
+# Manipulation de données
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Note: PIL/Pillow et TensorFlow ne sont plus nécessaires
+# car la classification par image a été supprimée
